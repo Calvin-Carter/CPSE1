@@ -1,0 +1,19 @@
+generator : generator.o rtttl_player.o note_player_2.o
+	g++ -std=c++17 generator.o rtttl_player.o note_player_2.o -o generator.exe
+
+generator.o : generator.cpp
+	g++ -std=c++17 -c generator.cpp -o generator.o
+
+note_player_text.o : note_player_2.cpp note_player_2.hpp
+	g++ -std=c++17 -c note_player_2.cpp -o note_player_2.o
+
+rtttl_player.o : rtttl_player.cpp rtttl_player.hpp
+	g++ -std=c++17 -c rtttl_player.cpp -o rtttl_player.o
+
+melody.cpp:
+	make -f Maakfile
+	chmod +x ./generator.exe
+	./generator.exe
+
+clean:
+	rm *.o
