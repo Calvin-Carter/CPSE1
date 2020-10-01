@@ -13,21 +13,18 @@ const char one[]          = "NumberOne:d=16,o=5,b=168:4f.,8c6,16b5,16c6,16b5,16c
 int main( void ){
    auto p = note_player_2();
 
-   std::fstream startfile ("meldody.cpp", std::ios_base::out);
+   std::fstream startfile ("melody.cpp", std::ios_base::out);
    startfile << "#include \"melody.hpp\"" << std::endl;
    startfile << std::endl;
-   startfile << "class meldody : public melody {" << std::endl;
-   startfile << "public:" << std::endl;
-   startfile << "   void play( note_player & p ){" << std::endl;
+   startfile << "   void melody::play( note_player & p ){" << std::endl;
    startfile.close();
 
-   if( 0 ){ rtttl_play( p, sos ); }
+   if( 1 ){ rtttl_play( p, sos ); }
    if( 0 ){ rtttl_play( p, let_it_be );  }
    if( 0 ){ rtttl_play( p, muppets );  }
    if( 0 ){ rtttl_play( p, rickroll );  }
    if( 0 ){ rtttl_play( p, one );  }
 
-   std::fstream endfile ("meldody.cpp", std::ios_base::app);
+   std::fstream endfile ("melody.cpp", std::ios_base::app);
    endfile << " }" << std::endl;
-   endfile << "};";
 }

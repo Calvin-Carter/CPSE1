@@ -16,9 +16,7 @@ int main( void ){
    std::fstream startfile ("meldody.cpp", std::ios_base::out);
    startfile << "#include \"melody.hpp\"" << std::endl;
    startfile << std::endl;
-   startfile << "class meldody : public melody {" << std::endl;
-   startfile << "public:" << std::endl;
-   startfile << "   void play( note_player & p ){" << std::endl;
+   startfile << "   void melody::play( note_player & p ){" << std::endl;
    startfile.close();
 
    if( 0 ){ rtttl_play( p, sos ); }
@@ -29,5 +27,4 @@ int main( void ){
 
    std::fstream endfile ("meldody.cpp", std::ios_base::app);
    endfile << " }" << std::endl;
-   endfile << "};";
 }

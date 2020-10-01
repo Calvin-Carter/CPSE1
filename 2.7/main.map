@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_ldivmod.o)
-                              rtttl_player.o (__aeabi_ldivmod)
+                              rtos.o (__aeabi_ldivmod)
 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
                               rtos.o (__aeabi_uldivmod)
 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
@@ -16,80 +16,27 @@ __dso_handle        0x4               bmptk_cortex.o
 
 Discarded input sections
 
- .group         0x0000000000000000        0x8 rtttl_player.o
- .group         0x0000000000000000        0xc rtttl_player.o
- .group         0x0000000000000000        0xc rtttl_player.o
- .text          0x0000000000000000        0x0 rtttl_player.o
- .data          0x0000000000000000        0x0 rtttl_player.o
- .bss           0x0000000000000000        0x0 rtttl_player.o
- .text._ZN5hwliblsERNS_7ostreamENS_6_flushE.isra.1
-                0x0000000000000000        0xe rtttl_player.o
- .text._ZN3due11ad_pin_infoENS_7ad_pinsE
-                0x0000000000000000       0x1c rtttl_player.o
- .text._ZN3due11ad_seq_infoEm
-                0x0000000000000000       0x20 rtttl_player.o
- .text._ZN5hwlib19uart_char_availableEv
-                0x0000000000000000        0x4 rtttl_player.o
- .text._ZN5hwlib9uart_getcEv
-                0x0000000000000000        0x4 rtttl_player.o
- .text._Z8is_digitc
-                0x0000000000000000        0xc rtttl_player.o
- .text._Z12is_lowercasec
-                0x0000000000000000        0xc rtttl_player.o
- .text._Z10rtttl_playR11note_playerPKc
-                0x0000000000000000      0x28c rtttl_player.o
- .data.frequencies
-                0x0000000000000000       0x1c rtttl_player.o
- .rodata._Z10rtttl_playR11note_playerPKc.str1.1
-                0x0000000000000000       0x7e rtttl_player.o
- .rodata._ZZN3due11ad_pin_infoENS_7ad_pinsEE17ad_pin_info_array
-                0x0000000000000000        0xc rtttl_player.o
- .rodata._ZZN3due11ad_seq_infoEmE12ad_seq_array
-                0x0000000000000000       0x70 rtttl_player.o
  .group         0x0000000000000000        0xc note_player_gpio.o
  .text          0x0000000000000000        0x0 note_player_gpio.o
  .data          0x0000000000000000        0x0 note_player_gpio.o
  .bss           0x0000000000000000        0x0 note_player_gpio.o
- .text._ZN6sam3xa10SystemInitEv
-                0x0000000000000000       0x7c note_player_gpio.o
- .text._ZN3due8pin_infoENS_4pinsE
-                0x0000000000000000       0x20 note_player_gpio.o
  .text._ZN3due11ad_pin_infoENS_7ad_pinsE
                 0x0000000000000000       0x1c note_player_gpio.o
  .text._ZN3due11ad_seq_infoEm
                 0x0000000000000000       0x20 note_player_gpio.o
- .text._ZN3due14port_registersEm
-                0x0000000000000000       0x54 note_player_gpio.o
- .text._ZN3due12ticks_per_usEv
-                0x0000000000000000        0x6 note_player_gpio.o
- .text._ZN3due9now_ticksEv
-                0x0000000000000000       0x80 note_player_gpio.o
- .text._ZN5hwlib9uart_putcEc
-                0x0000000000000000        0x4 note_player_gpio.o
  .text._ZN5hwlib19uart_char_availableEv
                 0x0000000000000000        0x4 note_player_gpio.o
  .text._ZN5hwlib9uart_getcEv
                 0x0000000000000000        0x4 note_player_gpio.o
- .bss._ZZN3due9now_ticksEvE4high
-                0x0000000000000000        0x8 note_player_gpio.o
- .bss._ZZN3due9now_ticksEvE8last_low
-                0x0000000000000000        0x4 note_player_gpio.o
- .bss._ZZN3due9now_ticksEvE9init_done
-                0x0000000000000000        0x1 note_player_gpio.o
- .data._ZN6sam3xa15SystemCoreClockE
-                0x0000000000000000        0x4 note_player_gpio.o
- .rodata._ZN3due8pin_infoENS_4pinsE.str1.1
-                0x0000000000000000       0x33 note_player_gpio.o
  .rodata._ZZN3due11ad_pin_infoENS_7ad_pinsEE17ad_pin_info_array
                 0x0000000000000000        0xc note_player_gpio.o
  .rodata._ZZN3due11ad_seq_infoEmE12ad_seq_array
                 0x0000000000000000       0x70 note_player_gpio.o
- .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
-                0x0000000000000000       0xa4 note_player_gpio.o
- .text          0x0000000000000000        0x0 meldody.o
- .data          0x0000000000000000        0x0 meldody.o
- .bss           0x0000000000000000        0x0 meldody.o
- .comment       0x0000000000000000       0x80 meldody.o
+ .text          0x0000000000000000        0x0 melody.o
+ .data          0x0000000000000000        0x0 melody.o
+ .bss           0x0000000000000000        0x0 melody.o
+ .rodata._ZTV6melody
+                0x0000000000000000        0xc melody.o
  .data          0x0000000000000000        0x0 switch_to.o
  .bss           0x0000000000000000        0x0 switch_to.o
  .group         0x0000000000000000        0xc coroutine.o
@@ -153,10 +100,6 @@ Discarded input sections
                 0x0000000000000000        0xa rtos.o
  .text._ZN5hwlib7ostream7reverse10add_prefixERKS0_.part.2
                 0x0000000000000000       0x4c rtos.o
- .text._ZN5hwlib7ostreamlsEc
-                0x0000000000000000        0xe rtos.o
- .text._ZN5hwliblsERNS_7ostreamEPKc
-                0x0000000000000000       0x66 rtos.o
  .text._ZN5hwliblsERNS_7ostreamEi
                 0x0000000000000000       0x92 rtos.o
  .text._ZN5hwliblsERNS_7ostreamEx
@@ -1473,15 +1416,15 @@ Discarded input sections
                 0x0000000000000000       0xa4 hwlib.o
  .group         0x0000000000000000        0x8 main.o
  .group         0x0000000000000000        0x8 main.o
- .group         0x0000000000000000        0xc main.o
  .group         0x0000000000000000        0x8 main.o
- .group         0x0000000000000000        0xc main.o
  .group         0x0000000000000000        0xc main.o
  .group         0x0000000000000000        0xc main.o
  .group         0x0000000000000000        0xc main.o
  .text          0x0000000000000000        0x0 main.o
  .data          0x0000000000000000        0x0 main.o
  .bss           0x0000000000000000        0x0 main.o
+ .text._ZN6melody4playER11note_player
+                0x0000000000000000      0x134 main.o
  .text._ZN5hwlib7ostream6fillerEi
                 0x0000000000000000       0x1a main.o
  .text._ZN5hwliblsERNS_7ostreamEPKc
@@ -1506,6 +1449,7 @@ Discarded input sections
                 0x0000000000000000        0x4 main.o
  .text._ZN5hwlib9uart_getcEv
                 0x0000000000000000        0x4 main.o
+ .rodata        0x0000000000000000       0x10 main.o
  .bss._ZZN3due9now_ticksEvE4high
                 0x0000000000000000        0x8 main.o
  .bss._ZZN3due9now_ticksEvE8last_low
@@ -1566,9 +1510,8 @@ nul              0x0000000020018000 0x0000000000000000 xrw
 Linker script and memory map
 
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a
-LOAD rtttl_player.o
 LOAD note_player_gpio.o
-LOAD meldody.o
+LOAD melody.o
 LOAD switch_to.o
 LOAD coroutine.o
 LOAD rtos.o
@@ -1593,7 +1536,7 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
                 [!provide]                        PROVIDE (__ram_size = __ram_size)
                 [!provide]                        PROVIDE (__ram_end = __ram_end)
 
-.text           0x0000000000000000      0xb24
+.text           0x0000000000000000      0xb74
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                __text_start = .
                 [!provide]                        PROVIDE (__text_start = __text_start)
@@ -1603,167 +1546,166 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
                 0x0000000000000000                __vectors
                 0x0000000000000020                . = ALIGN (0x4)
  *(.text .text.* .gnu.linkonce.t.*)
- .text._ZN5hwlib7ostreamlsEc
-                0x0000000000000020        0xe rtttl_player.o
-                0x0000000000000020                hwlib::ostream::operator<<(char)
- .text._ZN5hwliblsERNS_7ostreamEPKc
-                0x000000000000002e       0x66 rtttl_player.o
-                0x000000000000002e                hwlib::operator<<(hwlib::ostream&, char const*)
- .text._ZN6sam3xa10SystemInitEv
-                0x0000000000000094       0x7c rtttl_player.o
-                0x0000000000000094                sam3xa::SystemInit()
- .text._ZN3due8pin_infoENS_4pinsE
-                0x0000000000000110       0x20 rtttl_player.o
-                0x0000000000000110                due::pin_info(due::pins)
- .text._ZN3due14port_registersEm
-                0x0000000000000130       0x54 rtttl_player.o
-                0x0000000000000130                due::port_registers(unsigned long)
- .text._ZN3due12ticks_per_usEv
-                0x0000000000000184        0x6 rtttl_player.o
-                0x0000000000000184                due::ticks_per_us()
- *fill*         0x000000000000018a        0x2 
- .text._ZN3due9now_ticksEv
-                0x000000000000018c       0x80 rtttl_player.o
-                0x000000000000018c                due::now_ticks()
- .text._ZN5hwlib9uart_putcEc
-                0x000000000000020c        0x4 rtttl_player.o
-                0x000000000000020c                hwlib::uart_putc(char)
  .text._ZN16note_player_gpio4playERK4note
-                0x0000000000000210       0x6c note_player_gpio.o
-                0x0000000000000210                note_player_gpio::play(note const&)
- .text          0x000000000000027c       0x24 switch_to.o
-                0x000000000000027c                switch_from_to
+                0x0000000000000020       0x6c note_player_gpio.o
+                0x0000000000000020                note_player_gpio::play(note const&)
+ .text._ZN6sam3xa10SystemInitEv
+                0x000000000000008c       0x7c note_player_gpio.o
+                0x000000000000008c                sam3xa::SystemInit()
+ .text._ZN3due8pin_infoENS_4pinsE
+                0x0000000000000108       0x20 note_player_gpio.o
+                0x0000000000000108                due::pin_info(due::pins)
+ .text._ZN3due14port_registersEm
+                0x0000000000000128       0x54 note_player_gpio.o
+                0x0000000000000128                due::port_registers(unsigned long)
+ .text._ZN3due12ticks_per_usEv
+                0x000000000000017c        0x6 note_player_gpio.o
+                0x000000000000017c                due::ticks_per_us()
+ *fill*         0x0000000000000182        0x2 
+ .text._ZN3due9now_ticksEv
+                0x0000000000000184       0x80 note_player_gpio.o
+                0x0000000000000184                due::now_ticks()
+ .text._ZN5hwlib9uart_putcEc
+                0x0000000000000204        0x4 note_player_gpio.o
+                0x0000000000000204                hwlib::uart_putc(char)
+ .text._ZN6melody4playER11note_player
+                0x0000000000000208      0x134 melody.o
+                0x0000000000000208                melody::play(note_player&)
+ .text          0x000000000000033c       0x24 switch_to.o
+                0x000000000000033c                switch_from_to
+ .text._ZN5hwlib7ostreamlsEc
+                0x0000000000000360        0xe rtos.o
+                0x0000000000000360                hwlib::ostream::operator<<(char)
+ .text._ZN5hwliblsERNS_7ostreamEPKc
+                0x000000000000036e       0x66 rtos.o
+                0x000000000000036e                hwlib::operator<<(hwlib::ostream&, char const*)
  .text._ZN4rtos9task_base7releaseEv
-                0x00000000000002a0       0x24 rtos.o
-                0x00000000000002a0                rtos::task_base::release()
+                0x00000000000003d4       0x24 rtos.o
+                0x00000000000003d4                rtos::task_base::release()
  .text._ZN4rtos9task_base5blockEv
-                0x00000000000002c4       0x70 rtos.o
-                0x00000000000002c4                rtos::task_base::block()
+                0x00000000000003f8       0x70 rtos.o
+                0x00000000000003f8                rtos::task_base::block()
  .text._ZN4rtos12waitable_set4waitEj
-                0x0000000000000334       0x64 rtos.o
-                0x0000000000000334                rtos::waitable_set::wait(unsigned int)
+                0x0000000000000468       0x64 rtos.o
+                0x0000000000000468                rtos::waitable_set::wait(unsigned int)
  .text._ZN5hwlib7wait_usEi
-                0x0000000000000398       0x3c rtos.o
-                0x0000000000000398                hwlib::wait_us(int)
+                0x00000000000004cc       0x3c rtos.o
+                0x00000000000004cc                hwlib::wait_us(int)
  .text._ZN5hwlib7wait_msEi
-                0x00000000000003d4       0x16 rtos.o
-                0x00000000000003d4                hwlib::wait_ms(int)
+                0x0000000000000508       0x16 rtos.o
+                0x0000000000000508                hwlib::wait_ms(int)
  .text._ZN5hwlib20cout_using_uart_putc5flushEv
-                0x00000000000003ea        0x2 hwlib.o
-                0x00000000000003ea                hwlib::cout_using_uart_putc::flush()
+                0x000000000000051e        0x2 hwlib.o
+                0x000000000000051e                hwlib::cout_using_uart_putc::flush()
  .text._ZN5hwlib5panicEPKcj
-                0x00000000000003ec        0x2 hwlib.o
-                0x00000000000003ec                hwlib::panic(char const*, unsigned int)
- *fill*         0x00000000000003ee        0x2 
+                0x0000000000000520        0x2 hwlib.o
+                0x0000000000000520                hwlib::panic(char const*, unsigned int)
+ *fill*         0x0000000000000522        0x2 
  .text._ZN5hwlib10background18do_background_workEv
-                0x00000000000003f0       0x3c hwlib.o
-                0x00000000000003f0                hwlib::background::do_background_work()
+                0x0000000000000524       0x3c hwlib.o
+                0x0000000000000524                hwlib::background::do_background_work()
  .text._ZN3due9uart_initEv
-                0x000000000000042c       0x60 hwlib.o
-                0x000000000000042c                due::uart_init()
+                0x0000000000000560       0x60 hwlib.o
+                0x0000000000000560                due::uart_init()
  .text._ZN3due9uart_putcEc
-                0x000000000000048c       0x20 hwlib.o
-                0x000000000000048c                due::uart_putc(char)
+                0x00000000000005c0       0x20 hwlib.o
+                0x00000000000005c0                due::uart_putc(char)
  .text._ZN5hwlib20cout_using_uart_putc4putcEc
-                0x00000000000004ac        0xa hwlib.o
-                0x00000000000004ac                hwlib::cout_using_uart_putc::putc(char)
+                0x00000000000005e0        0xa hwlib.o
+                0x00000000000005e0                hwlib::cout_using_uart_putc::putc(char)
  .text._ZN5hwlib6now_usEv
-                0x00000000000004b6       0x1c hwlib.o
-                0x00000000000004b6                hwlib::now_us()
+                0x00000000000005ea       0x1c hwlib.o
+                0x00000000000005ea                hwlib::now_us()
  .text._ZN5hwlib12wait_us_busyEi
-                0x00000000000004d2       0x1c hwlib.o
-                0x00000000000004d2                hwlib::wait_us_busy(int)
+                0x0000000000000606       0x1c hwlib.o
+                0x0000000000000606                hwlib::wait_us_busy(int)
  .text._ZN3due7pin_out5writeEb
-                0x00000000000004ee        0xe main.o
-                0x00000000000004ee                due::pin_out::write(bool)
+                0x0000000000000622        0xe main.o
+                0x0000000000000622                due::pin_out::write(bool)
  .text._ZN3due7pin_out5flushEv
-                0x00000000000004fc        0x2 main.o
-                0x00000000000004fc                due::pin_out::flush()
- *fill*         0x00000000000004fe        0x2 
- .text._ZN7meldody4playER11note_player
-                0x0000000000000500       0xc4 main.o
-                0x0000000000000500                meldody::play(note_player&)
+                0x0000000000000630        0x2 main.o
+                0x0000000000000630                due::pin_out::flush()
+ *fill*         0x0000000000000632        0x2 
  .text.startup.main
-                0x00000000000005c4       0x78 main.o
-                0x00000000000005c4                main
+                0x0000000000000634       0x78 main.o
+                0x0000000000000634                main
  .text.__startup
-                0x000000000000063c       0x48 bmptk_cortex.o
-                0x000000000000063c                __startup
- .text          0x0000000000000684       0x30 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000000000684                __aeabi_uldivmod
- .text          0x00000000000006b4      0x2d0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
-                0x00000000000006b4                __udivmoddi4
- .text          0x0000000000000984        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_dvmd_tls.o)
-                0x0000000000000984                __aeabi_ldiv0
-                0x0000000000000988                . = ALIGN (0x4)
+                0x00000000000006ac       0x48 bmptk_cortex.o
+                0x00000000000006ac                __startup
+ .text          0x00000000000006f4       0x30 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000000006f4                __aeabi_uldivmod
+ .text          0x0000000000000724      0x2d0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+                0x0000000000000724                __udivmoddi4
+ .text          0x00000000000009f4        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_dvmd_tls.o)
+                0x00000000000009f4                __aeabi_ldiv0
+                0x00000000000009f8                . = ALIGN (0x4)
  *(.glue_7t .glue_7)
- .glue_7        0x0000000000000988        0x0 linker stubs
- .glue_7t       0x0000000000000988        0x0 linker stubs
-                0x0000000000000988                . = ALIGN (0x4)
+ .glue_7        0x00000000000009f8        0x0 linker stubs
+ .glue_7t       0x00000000000009f8        0x0 linker stubs
+                0x00000000000009f8                . = ALIGN (0x4)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata._ZN3due8pin_infoENS_4pinsE.str1.1
-                0x0000000000000988       0x33 rtttl_player.o
- .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
-                0x00000000000009bb       0xa4 rtttl_player.o
- *fill*         0x0000000000000a5f        0x1 
+                0x00000000000009f8       0x33 note_player_gpio.o
+ *fill*         0x0000000000000a2b        0x1 
  .rodata._ZTV16note_player_gpio
-                0x0000000000000a60        0xc note_player_gpio.o
-                0x0000000000000a60                vtable for note_player_gpio
+                0x0000000000000a2c        0xc note_player_gpio.o
+                0x0000000000000a2c                vtable for note_player_gpio
+ .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
+                0x0000000000000a38       0xa4 note_player_gpio.o
+ .rodata        0x0000000000000adc       0x10 melody.o
  .rodata._ZN4rtos9task_base5blockEv.str1.1
-                0x0000000000000a6c       0x4b rtos.o
- *fill*         0x0000000000000ab7        0x1 
+                0x0000000000000aec       0x4b rtos.o
+ *fill*         0x0000000000000b37        0x1 
  .rodata._ZTVN5hwlib20cout_using_uart_putcE
-                0x0000000000000ab8       0x10 hwlib.o
-                0x0000000000000ab8                vtable for hwlib::cout_using_uart_putc
+                0x0000000000000b38       0x10 hwlib.o
+                0x0000000000000b38                vtable for hwlib::cout_using_uart_putc
  .rodata._ZTVN3due7pin_outE
-                0x0000000000000ac8       0x10 main.o
-                0x0000000000000ac8                vtable for due::pin_out
- .rodata._ZTV7meldody
-                0x0000000000000ad8        0xc main.o
-                0x0000000000000ad8                vtable for meldody
- .rodata        0x0000000000000ae4       0x30 main.o
+                0x0000000000000b48       0x10 main.o
+                0x0000000000000b48                vtable for due::pin_out
+ .rodata._ZTV6melody
+                0x0000000000000b58        0xc main.o
  .rodata.main.str1.1
-                0x0000000000000b14        0xe main.o
+                0x0000000000000b64        0xe main.o
                                          0x10 (size before relaxing)
-                0x0000000000000b24                . = ALIGN (0x4)
- *fill*         0x0000000000000b22        0x2 
+                0x0000000000000b74                . = ALIGN (0x4)
+ *fill*         0x0000000000000b72        0x2 
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000000000b24                . = ALIGN (0x4)
+                0x0000000000000b74                . = ALIGN (0x4)
  *(.gcc_except_table)
-                0x0000000000000b24                . = ALIGN (0x4)
+                0x0000000000000b74                . = ALIGN (0x4)
  *(.eh_frame_hdr)
-                0x0000000000000b24                . = ALIGN (0x4)
+                0x0000000000000b74                . = ALIGN (0x4)
  *(.eh_frame)
-                0x0000000000000b24                . = ALIGN (0x4)
-                0x0000000000000b24                __text_end = .
+                0x0000000000000b74                . = ALIGN (0x4)
+                0x0000000000000b74                __text_end = .
                 [!provide]                        PROVIDE (__text_end = __text_end)
 
-.vfp11_veneer   0x0000000000000b24        0x0
- .vfp11_veneer  0x0000000000000b24        0x0 linker stubs
+.vfp11_veneer   0x0000000000000b74        0x0
+ .vfp11_veneer  0x0000000000000b74        0x0 linker stubs
 
-.v4_bx          0x0000000000000b24        0x0
- .v4_bx         0x0000000000000b24        0x0 linker stubs
+.v4_bx          0x0000000000000b74        0x0
+ .v4_bx         0x0000000000000b74        0x0 linker stubs
 
-.iplt           0x0000000000000b24        0x0
- .iplt          0x0000000000000b24        0x0 rtttl_player.o
+.iplt           0x0000000000000b74        0x0
+ .iplt          0x0000000000000b74        0x0 note_player_gpio.o
 
 .IF_YOU_SEE_THIS_YOU_HAVE_ONE_OR_MORE_GLOBAL_OBJECT_CONSTRUCTORS
  *(.init)
  *(.preinit_array)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
-                0x0000000000000b24                . = ALIGN (0x4)
-                0x0000000000000b24                __exidx_start = .
+                0x0000000000000b74                . = ALIGN (0x4)
+                0x0000000000000b74                __exidx_start = .
                 [!provide]                        PROVIDE (__exidx_start = __exidx_start)
 
-.ARM.exidx      0x0000000000000b24        0x8
+.ARM.exidx      0x0000000000000b74        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000000000000b24        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0000000000000b74        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
 
-.rel.dyn        0x0000000000000b2c        0x0
- .rel.iplt      0x0000000000000b2c        0x0 rtttl_player.o
-                0x0000000000000b2c                . = ALIGN (0x4)
-                0x0000000000000b2c                __exidx_end = .
+.rel.dyn        0x0000000000000b7c        0x0
+ .rel.iplt      0x0000000000000b7c        0x0 note_player_gpio.o
+                0x0000000000000b7c                . = ALIGN (0x4)
+                0x0000000000000b7c                __exidx_end = .
                 [!provide]                        PROVIDE (__exidx_end = __exidx_end)
 
 .bss            0x0000000020000000    0x1402c
@@ -1786,11 +1728,11 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
                 0x0000000020014000                . = ALIGN (0x4)
  *(.bss .bss.* .gnu.linkonce.b.*)
  .bss._ZZN3due9now_ticksEvE4high
-                0x0000000020014000        0x8 rtttl_player.o
+                0x0000000020014000        0x8 note_player_gpio.o
  .bss._ZZN3due9now_ticksEvE8last_low
-                0x0000000020014008        0x4 rtttl_player.o
+                0x0000000020014008        0x4 note_player_gpio.o
  .bss._ZZN3due9now_ticksEvE9init_done
-                0x000000002001400c        0x1 rtttl_player.o
+                0x000000002001400c        0x1 note_player_gpio.o
  *fill*         0x000000002001400d        0x3 
  .bss._ZN17coroutine_context7main_spE
                 0x0000000020014010        0x4 coroutine.o
@@ -1823,16 +1765,16 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
                 0x000000002001402c                __bss_end = .
                 [!provide]                        PROVIDE (__bss_end = __bss_end)
 
-.data           0x000000002001402c       0x20 load address 0x0000000000000b2c
+.data           0x000000002001402c       0x20 load address 0x0000000000000b7c
                 0x000000002001402c                . = ALIGN (0x4)
-                0x0000000000000b2c                __data_init_start = LOADADDR (.data)
+                0x0000000000000b7c                __data_init_start = LOADADDR (.data)
                 [!provide]                        PROVIDE (__data_init_start = __data_init_start)
                 0x000000002001402c                __data_start = .
                 [!provide]                        PROVIDE (__data_start = __data_start)
                 0x000000002001402c                . = ALIGN (0x4)
  *(.data .data.* .gnu.linkonce.d.*)
  .data._ZN6sam3xa15SystemCoreClockE
-                0x000000002001402c        0x4 rtttl_player.o
+                0x000000002001402c        0x4 note_player_gpio.o
                 0x000000002001402c                sam3xa::SystemCoreClock
  .data._ZN17coroutine_context24current_coroutine_sp_ptrE
                 0x0000000020014030        0x4 coroutine.o
@@ -1846,14 +1788,14 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
                 0x000000002001404c                . = ALIGN (0x4)
                 0x000000002001404c                __data_end = .
                 [!provide]                        PROVIDE (__data_end = __data_end)
-                0x0000000000000b2c                __data_init_end = LOADADDR (.data)
+                0x0000000000000b7c                __data_init_end = LOADADDR (.data)
                 [!provide]                        PROVIDE (__data_init_end = __data_init_end)
                 [!provide]                        PROVIDE (__data_size = (__data_end - __data_start))
                 [!provide]                        PROVIDE (__data_init_size = __data_size)
                 [!provide]                        PROVIDE (__data_init_end = (__data_init_start + __data_init_size))
 
-.igot.plt       0x000000002001404c        0x0 load address 0x0000000000000b4c
- .igot.plt      0x000000002001404c        0x0 rtttl_player.o
+.igot.plt       0x000000002001404c        0x0 load address 0x0000000000000b9c
+ .igot.plt      0x000000002001404c        0x0 note_player_gpio.o
                 0x000000002001404c                . = ALIGN (0x4)
                 0x000000002001404c                __heap_start = .
                 [!provide]                        PROVIDE (__heap_start = __heap_start)
@@ -1900,9 +1842,9 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
  .debug_frame   0x000000000000002c       0x34 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
 
 .comment        0x0000000000000000       0x7f
- .comment       0x0000000000000000       0x7f rtttl_player.o
+ .comment       0x0000000000000000       0x7f note_player_gpio.o
                                          0x80 (size before relaxing)
- .comment       0x000000000000007f       0x80 note_player_gpio.o
+ .comment       0x000000000000007f       0x80 melody.o
  .comment       0x000000000000007f       0x80 coroutine.o
  .comment       0x000000000000007f       0x80 rtos.o
  .comment       0x000000000000007f       0x80 hwlib.o
@@ -1938,35 +1880,33 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb
                 0x0000000000000000       0x31
  *(.ARM.attributes)
  .ARM.attributes
-                0x0000000000000000       0x33 rtttl_player.o
+                0x0000000000000000       0x33 note_player_gpio.o
  .ARM.attributes
-                0x0000000000000033       0x33 note_player_gpio.o
+                0x0000000000000033       0x33 melody.o
  .ARM.attributes
-                0x0000000000000066       0x33 meldody.o
+                0x0000000000000066       0x21 switch_to.o
  .ARM.attributes
-                0x0000000000000099       0x21 switch_to.o
+                0x0000000000000087       0x33 coroutine.o
  .ARM.attributes
-                0x00000000000000ba       0x33 coroutine.o
+                0x00000000000000ba       0x33 rtos.o
  .ARM.attributes
-                0x00000000000000ed       0x33 rtos.o
+                0x00000000000000ed       0x33 hwlib.o
  .ARM.attributes
-                0x0000000000000120       0x33 hwlib.o
+                0x0000000000000120       0x33 main.o
  .ARM.attributes
-                0x0000000000000153       0x33 main.o
+                0x0000000000000153       0x33 bmptk_cortex.o
  .ARM.attributes
-                0x0000000000000186       0x33 bmptk_cortex.o
+                0x0000000000000186       0x33 bmptk_heap_bmptk.o
  .ARM.attributes
-                0x00000000000001b9       0x33 bmptk_heap_bmptk.o
+                0x00000000000001b9       0x33 bmptk_fixed_size_stack.o
  .ARM.attributes
-                0x00000000000001ec       0x33 bmptk_fixed_size_stack.o
+                0x00000000000001ec       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_ldivmod.o)
  .ARM.attributes
-                0x000000000000021f       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_ldivmod.o)
+                0x0000000000000209       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000000000000023c       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000226       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000000000000259       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
- .ARM.attributes
-                0x0000000000000286       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_dvmd_tls.o)
+                0x0000000000000253       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_dvmd_tls.o)
 
 /DISCARD/
  *(.note.GNU-stack)

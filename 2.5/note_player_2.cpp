@@ -62,6 +62,6 @@ void note_player_2::play( const note & n ){
   else if(n.duration == n.dQ){
     duration = "dQ";
   }
-  std::fstream file ("meldody.hpp", std::ios_base::app);
+  std::fstream file ("meldody.cpp", std::ios_base::app);
   file << "   p.play( note{ note::" << note << ", " << "note::" << duration << " } );" << std::endl;
 }
